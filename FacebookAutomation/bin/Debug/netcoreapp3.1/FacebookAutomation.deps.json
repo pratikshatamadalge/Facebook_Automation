@@ -8,48 +8,43 @@
     ".NETCoreApp,Version=v3.1": {
       "FacebookAutomation/1.0.0": {
         "dependencies": {
-          "DotNetSeleniumExtras.PageObjects.Core": "3.12.0",
-          "MSTest.TestFramework": "2.1.2",
+          "DotNetSeleniumExtras.PageObjects": "3.11.0",
+          "DotNetSeleniumExtras.PageObjects.Core": "4.0.0-alpha05",
           "Microsoft.CSharp": "4.7.0",
-          "Microsoft.NET.Test.Sdk": "16.6.1",
+          "Microsoft.NET.Test.Sdk": "16.7.0-preview-20200519-01",
           "NUnit": "3.12.0",
-          "NUnit3TestAdapter": "3.16.1",
-          "Selenium.WebDriver": "3.141.0",
-          "Selenium.WebDriver.ChromeDriver": "83.0.4103.3900",
-          "WebDriverManager": "2.9.1"
+          "NUnit3TestAdapter": "3.17.0-beta.2",
+          "Selenium.Chrome.WebDriver": "83.0.0",
+          "Selenium.Support": "4.0.0-alpha05",
+          "Selenium.WebDriver": "4.0.0-alpha05",
+          "Selenium.WebDriver.ChromeDriver": "84.0.4147.3000-beta",
+          "WebDriver.ChromeDriver.win32": "83.0.4103.39"
         },
         "runtime": {
           "FacebookAutomation.dll": {}
         }
       },
-      "AngleSharp/0.14.0": {
+      "DotNetSeleniumExtras.PageObjects/3.11.0": {
         "dependencies": {
-          "System.Text.Encoding.CodePages": "4.5.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/AngleSharp.dll": {
-            "assemblyVersion": "0.14.0.0",
-            "fileVersion": "0.14.0.0"
-          }
+          "Selenium.WebDriver": "4.0.0-alpha05"
         }
       },
-      "DotNetSeleniumExtras.PageObjects.Core/3.12.0": {
+      "DotNetSeleniumExtras.PageObjects.Core/4.0.0-alpha05": {
         "dependencies": {
-          "Selenium.WebDriver": "3.141.0",
-          "System.Reflection.DispatchProxy": "4.4.0"
+          "Selenium.WebDriver": "4.0.0-alpha05"
         },
         "runtime": {
           "lib/netstandard2.0/SeleniumExtras.PageObjects.dll": {
-            "assemblyVersion": "3.12.0.0",
-            "fileVersion": "3.12.0.0"
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
           }
         }
       },
-      "Microsoft.CodeCoverage/16.6.1": {
+      "Microsoft.CodeCoverage/16.7.0-preview-20200519-01": {
         "runtime": {
           "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
             "assemblyVersion": "15.0.0.0",
-            "fileVersion": "16.0.28223.3002"
+            "fileVersion": "16.0.30118.154"
           }
         }
       },
@@ -72,15 +67,15 @@
           }
         }
       },
-      "Microsoft.NET.Test.Sdk/16.6.1": {
+      "Microsoft.NET.Test.Sdk/16.7.0-preview-20200519-01": {
         "dependencies": {
-          "Microsoft.CodeCoverage": "16.6.1",
-          "Microsoft.TestPlatform.TestHost": "16.6.1"
+          "Microsoft.CodeCoverage": "16.7.0-preview-20200519-01",
+          "Microsoft.TestPlatform.TestHost": "16.7.0-preview-20200519-01"
         }
       },
-      "Microsoft.NETCore.Platforms/2.0.0": {},
+      "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
-      "Microsoft.TestPlatform.ObjectModel/16.6.1": {
+      "Microsoft.TestPlatform.ObjectModel/16.7.0-preview-20200519-01": {
         "dependencies": {
           "NuGet.Frameworks": "5.0.0"
         },
@@ -179,10 +174,10 @@
           }
         }
       },
-      "Microsoft.TestPlatform.TestHost/16.6.1": {
+      "Microsoft.TestPlatform.TestHost/16.7.0-preview-20200519-01": {
         "dependencies": {
-          "Microsoft.TestPlatform.ObjectModel": "16.6.1",
-          "Newtonsoft.Json": "10.0.3"
+          "Microsoft.TestPlatform.ObjectModel": "16.7.0-preview-20200519-01",
+          "Newtonsoft.Json": "12.0.2"
         },
         "runtime": {
           "lib/netcoreapp2.1/Microsoft.TestPlatform.CommunicationUtilities.dll": {
@@ -328,14 +323,14 @@
       },
       "Microsoft.Win32.Primitives/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
         }
       },
       "Microsoft.Win32.Registry/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.NETCore.Platforms": "1.1.0",
           "System.Collections": "4.3.0",
           "System.Globalization": "4.3.0",
           "System.Resources.ResourceManager": "4.3.0",
@@ -345,36 +340,16 @@
           "System.Runtime.InteropServices": "4.3.0"
         }
       },
-      "MSTest.TestFramework/2.1.2": {
-        "runtime": {
-          "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {
-            "assemblyVersion": "14.0.0.0",
-            "fileVersion": "14.0.4908.2"
-          },
-          "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {
-            "assemblyVersion": "14.0.0.0",
-            "fileVersion": "14.0.4908.2"
-          }
-        }
-      },
       "NETStandard.Library/2.0.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0"
+          "Microsoft.NETCore.Platforms": "1.1.0"
         }
       },
-      "Newtonsoft.Json/10.0.3": {
-        "dependencies": {
-          "Microsoft.CSharp": "4.7.0",
-          "NETStandard.Library": "2.0.0",
-          "System.ComponentModel.TypeConverter": "4.3.0",
-          "System.Runtime.Serialization.Formatters": "4.3.0",
-          "System.Runtime.Serialization.Primitives": "4.3.0",
-          "System.Xml.XmlDocument": "4.3.0"
-        },
+      "Newtonsoft.Json/12.0.2": {
         "runtime": {
-          "lib/netstandard1.3/Newtonsoft.Json.dll": {
-            "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.3.21018"
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
           }
         }
       },
@@ -397,7 +372,7 @@
           }
         }
       },
-      "NUnit3TestAdapter/3.16.1": {
+      "NUnit3TestAdapter/3.17.0-beta.2": {
         "dependencies": {
           "Microsoft.DotNet.InternalAbstractions": "1.0.0",
           "System.ComponentModel.EventBasedAsync": "4.3.0",
@@ -412,30 +387,34 @@
       },
       "runtime.native.System/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0"
         }
       },
-      "Selenium.WebDriver/3.141.0": {
+      "Selenium.Chrome.WebDriver/83.0.0": {},
+      "Selenium.Support/4.0.0-alpha05": {
         "dependencies": {
-          "Newtonsoft.Json": "10.0.3"
+          "Selenium.WebDriver": "4.0.0-alpha05"
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver/4.0.0-alpha05": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
         },
         "runtime": {
           "lib/netstandard2.0/WebDriver.dll": {
-            "assemblyVersion": "3.141.0.0",
-            "fileVersion": "3.141.0.0"
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
           }
         }
       },
-      "Selenium.WebDriver.ChromeDriver/83.0.4103.3900": {},
-      "SharpZipLib/1.2.0": {
-        "runtime": {
-          "lib/netstandard2.0/ICSharpCode.SharpZipLib.dll": {
-            "assemblyVersion": "1.2.0.246",
-            "fileVersion": "1.2.0.246"
-          }
-        }
-      },
+      "Selenium.WebDriver.ChromeDriver/84.0.4147.3000-beta": {},
       "System.AppContext/4.1.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -443,7 +422,7 @@
       },
       "System.Collections/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
         }
@@ -510,14 +489,14 @@
       },
       "System.Diagnostics.Debug/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
         }
       },
       "System.Diagnostics.Process/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.Win32.Primitives": "4.3.0",
           "Microsoft.Win32.Registry": "4.3.0",
           "System.Collections": "4.3.0",
@@ -542,14 +521,14 @@
       },
       "System.Globalization/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
         }
       },
       "System.Globalization.Extensions/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.NETCore.Platforms": "1.1.0",
           "System.Globalization": "4.3.0",
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
@@ -559,7 +538,7 @@
       },
       "System.IO/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0",
           "System.Text.Encoding": "4.3.0",
@@ -568,7 +547,7 @@
       },
       "System.IO.FileSystem/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.IO": "4.3.0",
           "System.IO.FileSystem.Primitives": "4.3.0",
@@ -594,17 +573,16 @@
       },
       "System.Reflection/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.IO": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Reflection.DispatchProxy/4.4.0": {},
       "System.Reflection.Extensions/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Reflection": "4.3.0",
           "System.Runtime": "4.3.0"
@@ -612,7 +590,7 @@
       },
       "System.Reflection.Primitives/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
         }
@@ -625,7 +603,7 @@
       },
       "System.Resources.ResourceManager/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Globalization": "4.3.0",
           "System.Reflection": "4.3.0",
@@ -634,28 +612,27 @@
       },
       "System.Runtime/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0"
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.5.0": {},
       "System.Runtime.Extensions/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
         }
       },
       "System.Runtime.Handles/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
         }
       },
       "System.Runtime.InteropServices/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Reflection": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
@@ -674,37 +651,16 @@
           "runtime.native.System": "4.3.0"
         }
       },
-      "System.Runtime.Serialization.Formatters/4.3.0": {
-        "dependencies": {
-          "System.Collections": "4.3.0",
-          "System.Reflection": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Runtime.Serialization.Primitives": "4.3.0"
-        }
-      },
-      "System.Runtime.Serialization.Primitives/4.3.0": {
-        "dependencies": {
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0"
-        }
-      },
       "System.Text.Encoding/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Text.Encoding.CodePages/4.5.0": {
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.0"
-        }
-      },
       "System.Text.Encoding.Extensions/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0",
           "System.Text.Encoding": "4.3.0"
@@ -723,7 +679,7 @@
       },
       "System.Threading.Tasks/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
         }
@@ -812,18 +768,7 @@
           }
         }
       },
-      "WebDriverManager/2.9.1": {
-        "dependencies": {
-          "AngleSharp": "0.14.0",
-          "SharpZipLib": "1.2.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/WebDriverManager.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      }
+      "WebDriver.ChromeDriver.win32/83.0.4103.39": {}
     }
   },
   "libraries": {
@@ -832,26 +777,26 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AngleSharp/0.14.0": {
+    "DotNetSeleniumExtras.PageObjects/3.11.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-34w9I7nyszfEYBY8g7T3B0AtWlOivNh+QoWc3KECRwbmcNyqWmb4huihtmpH2Ds7rIRRHMMPv9yfPBxxjBn03g==",
-      "path": "anglesharp/0.14.0",
-      "hashPath": "anglesharp.0.14.0.nupkg.sha512"
+      "sha512": "sha512-DJCLQ3beq1fzqpeQ5jTZwDqmzbOD2Xxsb/jCyShYam88CNwGGn5aBBqu4LVSj0sy0Ai76OauQQncYlC48VvQUQ==",
+      "path": "dotnetseleniumextras.pageobjects/3.11.0",
+      "hashPath": "dotnetseleniumextras.pageobjects.3.11.0.nupkg.sha512"
     },
-    "DotNetSeleniumExtras.PageObjects.Core/3.12.0": {
+    "DotNetSeleniumExtras.PageObjects.Core/4.0.0-alpha05": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-FcwAc221M6DIzy1yiYfed4FfoS6tZsI/Kkb1qGl8ChP9UELMi00VVMrHE+VsOtu9q5BvkoqyD4uXlm/5KJX3/Q==",
-      "path": "dotnetseleniumextras.pageobjects.core/3.12.0",
-      "hashPath": "dotnetseleniumextras.pageobjects.core.3.12.0.nupkg.sha512"
+      "sha512": "sha512-XsEkE4dBN4cA5VDs6fQOsSaI+AUD1LnuWDzV6Zuab7crmFddS9wv5J54CN4lEydKe5p0SDWgrUpfFhmhRmserQ==",
+      "path": "dotnetseleniumextras.pageobjects.core/4.0.0-alpha05",
+      "hashPath": "dotnetseleniumextras.pageobjects.core.4.0.0-alpha05.nupkg.sha512"
     },
-    "Microsoft.CodeCoverage/16.6.1": {
+    "Microsoft.CodeCoverage/16.7.0-preview-20200519-01": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nBYXDgAZCfjsOVzlhMB5olGvX4dTDWB/gWaYS/MhgXBcCz8XJuVGqkfK8LmwlBR/eeUPE9Q/NFZNwlJyMZf0vg==",
-      "path": "microsoft.codecoverage/16.6.1",
-      "hashPath": "microsoft.codecoverage.16.6.1.nupkg.sha512"
+      "sha512": "sha512-N6KXjIESN3HnhP8f3V8N5YII+RlqaTrgWg+qf1ThoRqG8l6PKSsfl8BlwTd5R8wSNK4BfB3VGPonkEzFagHZHw==",
+      "path": "microsoft.codecoverage/16.7.0-preview-20200519-01",
+      "hashPath": "microsoft.codecoverage.16.7.0-preview-20200519-01.nupkg.sha512"
     },
     "Microsoft.CSharp/4.7.0": {
       "type": "package",
@@ -867,19 +812,19 @@
       "path": "microsoft.dotnet.internalabstractions/1.0.0",
       "hashPath": "microsoft.dotnet.internalabstractions.1.0.0.nupkg.sha512"
     },
-    "Microsoft.NET.Test.Sdk/16.6.1": {
+    "Microsoft.NET.Test.Sdk/16.7.0-preview-20200519-01": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-zYAjfWzpxKb64P9ntReT1Xr8HdONZnpLVs12HIjXWo+UOCDpevP1UWRoaAgNysaD1/l3teBKvgbSeG9bRssfOQ==",
-      "path": "microsoft.net.test.sdk/16.6.1",
-      "hashPath": "microsoft.net.test.sdk.16.6.1.nupkg.sha512"
+      "sha512": "sha512-OwSz/fcZtgwHzkLUbf01/k7xCMfLlwjGTuSILIa9OUBzafoleBkEiQ0qRSxV6gdbtnrmfCyZJm+9OBEPmwt2zQ==",
+      "path": "microsoft.net.test.sdk/16.7.0-preview-20200519-01",
+      "hashPath": "microsoft.net.test.sdk.16.7.0-preview-20200519-01.nupkg.sha512"
     },
-    "Microsoft.NETCore.Platforms/2.0.0": {
+    "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-VdLJOCXhZaEMY7Hm2GKiULmn7IEPFE4XC5LPSfBVCUIA8YLZVh846gtfBJalsPQF2PlzdD7ecX7DZEulJ402ZQ==",
-      "path": "microsoft.netcore.platforms/2.0.0",
-      "hashPath": "microsoft.netcore.platforms.2.0.0.nupkg.sha512"
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Targets/1.1.0": {
       "type": "package",
@@ -888,19 +833,19 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
     },
-    "Microsoft.TestPlatform.ObjectModel/16.6.1": {
+    "Microsoft.TestPlatform.ObjectModel/16.7.0-preview-20200519-01": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-QFD1oT7Rn8Pv6z8L95gDXHsgRSsQmvMrIIhSrUqsEuKwsKg4HAqlOhWRwR0/UEkFMl9NdWt2w+OH01ttcDTtkg==",
-      "path": "microsoft.testplatform.objectmodel/16.6.1",
-      "hashPath": "microsoft.testplatform.objectmodel.16.6.1.nupkg.sha512"
+      "sha512": "sha512-6MN2LPepYL7OxRcVlKaoc8d7LnZnlw6t8UOpwFu1YNfKPpfFP83ce7DEW28Cc5eI90WVoYm3tcvEbtboB8OIAw==",
+      "path": "microsoft.testplatform.objectmodel/16.7.0-preview-20200519-01",
+      "hashPath": "microsoft.testplatform.objectmodel.16.7.0-preview-20200519-01.nupkg.sha512"
     },
-    "Microsoft.TestPlatform.TestHost/16.6.1": {
+    "Microsoft.TestPlatform.TestHost/16.7.0-preview-20200519-01": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-zPDuoodyqh99TReaEE7ea7nXmNTvQ7oclK/yng/r6DrOUDP1E7a5sW6x3fkb0CqEmb2YNUwH9QgmiVmouv/wIw==",
-      "path": "microsoft.testplatform.testhost/16.6.1",
-      "hashPath": "microsoft.testplatform.testhost.16.6.1.nupkg.sha512"
+      "sha512": "sha512-IyM9ogAcTHKE4/YKhIT7VDeZ+d2lDbBF03O2ctOSKPvbZOblS0s9oXpUk4oYWH1e5YjI/8/dqcMNdwR+lR6nrg==",
+      "path": "microsoft.testplatform.testhost/16.7.0-preview-20200519-01",
+      "hashPath": "microsoft.testplatform.testhost.16.7.0-preview-20200519-01.nupkg.sha512"
     },
     "Microsoft.Win32.Primitives/4.3.0": {
       "type": "package",
@@ -916,13 +861,6 @@
       "path": "microsoft.win32.registry/4.3.0",
       "hashPath": "microsoft.win32.registry.4.3.0.nupkg.sha512"
     },
-    "MSTest.TestFramework/2.1.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-DXTDuBumPC4oo9KKZMt5zgOuLdfUjqcsLRLyqeubaIxfl7ZBfk8wfsKRWYd1m5aCL3ekifW5pwT3rwuB2mDdLw==",
-      "path": "mstest.testframework/2.1.2",
-      "hashPath": "mstest.testframework.2.1.2.nupkg.sha512"
-    },
     "NETStandard.Library/2.0.0": {
       "type": "package",
       "serviceable": true,
@@ -930,12 +868,12 @@
       "path": "netstandard.library/2.0.0",
       "hashPath": "netstandard.library.2.0.0.nupkg.sha512"
     },
-    "Newtonsoft.Json/10.0.3": {
+    "Newtonsoft.Json/12.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-hSXaFmh7hNCuEoC4XNY5DrRkLDzYHqPx/Ik23R4J86Z7PE/Y6YidhG602dFVdLBRSdG6xp9NabH3dXpcoxWvww==",
-      "path": "newtonsoft.json/10.0.3",
-      "hashPath": "newtonsoft.json.10.0.3.nupkg.sha512"
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
     },
     "NuGet.Frameworks/5.0.0": {
       "type": "package",
@@ -951,12 +889,12 @@
       "path": "nunit/3.12.0",
       "hashPath": "nunit.3.12.0.nupkg.sha512"
     },
-    "NUnit3TestAdapter/3.16.1": {
+    "NUnit3TestAdapter/3.17.0-beta.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wKuxi7G9Gs2I9gnckwtMVzbPIy7vkNj+FafrmQPaYCUguT+se5kmzI3XwsVCXEalWk9pSYZW7roBkNu4ogn3DA==",
-      "path": "nunit3testadapter/3.16.1",
-      "hashPath": "nunit3testadapter.3.16.1.nupkg.sha512"
+      "sha512": "sha512-iCSWmxgFlXf/H4dnFPnAqtsZa57tk9bvOLgqyIY9itKkL5H7NfHUD6ShZUgXxxHAV9VxuxuHBUrOqnHrr2Kdew==",
+      "path": "nunit3testadapter/3.17.0-beta.2",
+      "hashPath": "nunit3testadapter.3.17.0-beta.2.nupkg.sha512"
     },
     "runtime.native.System/4.3.0": {
       "type": "package",
@@ -965,26 +903,33 @@
       "path": "runtime.native.system/4.3.0",
       "hashPath": "runtime.native.system.4.3.0.nupkg.sha512"
     },
-    "Selenium.WebDriver/3.141.0": {
+    "Selenium.Chrome.WebDriver/83.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wPqzXO3f79DzqauTZSzLMKiaBCN0Z2Mv7KvWP+hnV6EL88zh/pJJnFtdIR1X5wa3hsTOpF/bBJs45rz7kArsiA==",
-      "path": "selenium.webdriver/3.141.0",
-      "hashPath": "selenium.webdriver.3.141.0.nupkg.sha512"
+      "sha512": "sha512-dnPhsNdTi3e9xsjKP+JzNX+CaHxhnZP1XscOBeQ2g5bPv5ot5E8KcIYuo0gtcVY8Y5e3ASzEnwjBpvtExKNstA==",
+      "path": "selenium.chrome.webdriver/83.0.0",
+      "hashPath": "selenium.chrome.webdriver.83.0.0.nupkg.sha512"
     },
-    "Selenium.WebDriver.ChromeDriver/83.0.4103.3900": {
+    "Selenium.Support/4.0.0-alpha05": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-lbVAHeSPf5E0IJNtsO5sf1rQhaA1ePoHfaA3o2XZBMsQVDOkM1WpDeTe9KyuPKabdluUvVbt7vkufxlZLCGJ6w==",
-      "path": "selenium.webdriver.chromedriver/83.0.4103.3900",
-      "hashPath": "selenium.webdriver.chromedriver.83.0.4103.3900.nupkg.sha512"
+      "sha512": "sha512-mEp+3gUXtr4SJPg6oRrPLyND98y3N4J0H6MA1GMdjFW14kj01OE0+KFQtgyrN6EBKzxiDTkZoMk8mkF3Al/cKg==",
+      "path": "selenium.support/4.0.0-alpha05",
+      "hashPath": "selenium.support.4.0.0-alpha05.nupkg.sha512"
     },
-    "SharpZipLib/1.2.0": {
+    "Selenium.WebDriver/4.0.0-alpha05": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-zvWa/L02JHNatdtjya6Swpudb2YEHaOLHL1eRrqpjm71iGRNUNONO5adUF/9CHbSJbzhELW1UoH4NGy7n7+3bQ==",
-      "path": "sharpziplib/1.2.0",
-      "hashPath": "sharpziplib.1.2.0.nupkg.sha512"
+      "sha512": "sha512-ZaaY0T5eTDjxcJSZbgZuVUbc4eCSoY8cCjLHwAjHoeBBZQIq3SrlCTkaFNZ46288niZUlS9a5ehLAF7rpa86zQ==",
+      "path": "selenium.webdriver/4.0.0-alpha05",
+      "hashPath": "selenium.webdriver.4.0.0-alpha05.nupkg.sha512"
+    },
+    "Selenium.WebDriver.ChromeDriver/84.0.4147.3000-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2EDxQFadMd/4RISqg1EELOVLTv6EZB7+A7G122UiVJHvuJjqI2IwxuLemovyfOEWZYYuZ4JxfsqCZiZl3aLfQQ==",
+      "path": "selenium.webdriver.chromedriver/84.0.4147.3000-beta",
+      "hashPath": "selenium.webdriver.chromedriver.84.0.4147.3000-beta.nupkg.sha512"
     },
     "System.AppContext/4.1.0": {
       "type": "package",
@@ -1105,13 +1050,6 @@
       "path": "system.reflection/4.3.0",
       "hashPath": "system.reflection.4.3.0.nupkg.sha512"
     },
-    "System.Reflection.DispatchProxy/4.4.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-xK6JE0mpsBD+T0qu3V6dmVRa06PxAvIIM/zSjouqP7Sk6X+FQj+9XFRz9GmZk9aJGMU1LX6AgTZIlsYZ64QKsw==",
-      "path": "system.reflection.dispatchproxy/4.4.0",
-      "hashPath": "system.reflection.dispatchproxy.4.4.0.nupkg.sha512"
-    },
     "System.Reflection.Extensions/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -1147,13 +1085,6 @@
       "path": "system.runtime/4.3.0",
       "hashPath": "system.runtime.4.3.0.nupkg.sha512"
     },
-    "System.Runtime.CompilerServices.Unsafe/4.5.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-YrzNWduCDHhUaSRBxHxL11UkM2fD6y8hITHis4/LbQZ6vj3vdRjoH3IoPWWC9uDXK2wHIqn+b5gv1Np/VKyM1g==",
-      "path": "system.runtime.compilerservices.unsafe/4.5.0",
-      "hashPath": "system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512"
-    },
     "System.Runtime.Extensions/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -1182,33 +1113,12 @@
       "path": "system.runtime.interopservices.runtimeinformation/4.3.0",
       "hashPath": "system.runtime.interopservices.runtimeinformation.4.3.0.nupkg.sha512"
     },
-    "System.Runtime.Serialization.Formatters/4.3.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-KT591AkTNFOTbhZlaeMVvfax3RqhH1EJlcwF50Wm7sfnBLuHiOeZRRKrr1ns3NESkM20KPZ5Ol/ueMq5vg4QoQ==",
-      "path": "system.runtime.serialization.formatters/4.3.0",
-      "hashPath": "system.runtime.serialization.formatters.4.3.0.nupkg.sha512"
-    },
-    "System.Runtime.Serialization.Primitives/4.3.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Wz+0KOukJGAlXjtKr+5Xpuxf8+c8739RI1C+A2BoQZT+wMCCoMDDdO8/4IRHfaVINqL78GO8dW8G2lW/e45Mcw==",
-      "path": "system.runtime.serialization.primitives/4.3.0",
-      "hashPath": "system.runtime.serialization.primitives.4.3.0.nupkg.sha512"
-    },
     "System.Text.Encoding/4.3.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
       "path": "system.text.encoding/4.3.0",
       "hashPath": "system.text.encoding.4.3.0.nupkg.sha512"
-    },
-    "System.Text.Encoding.CodePages/4.5.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-S0wEUiKcLvRlkFUXca8uio1UQ5bYQzYgOmOKtCqaBQC3GR9AJjh43otcM32IGsAyvadFTaAMw9Irm6dS4Evfng==",
-      "path": "system.text.encoding.codepages/4.5.0",
-      "hashPath": "system.text.encoding.codepages.4.5.0.nupkg.sha512"
     },
     "System.Text.Encoding.Extensions/4.3.0": {
       "type": "package",
@@ -1287,12 +1197,12 @@
       "path": "system.xml.xpath.xmldocument/4.3.0",
       "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
     },
-    "WebDriverManager/2.9.1": {
+    "WebDriver.ChromeDriver.win32/83.0.4103.39": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-yUpydpcQNfI+9Qhr+lzKsy0hiXSstH54XhRR+FFmLOWDG61ILFEIpD9aZowuRB6uGmZvLoJ5uIezxIYVOzDonQ==",
-      "path": "webdrivermanager/2.9.1",
-      "hashPath": "webdrivermanager.2.9.1.nupkg.sha512"
+      "sha512": "sha512-GyoOTiX/Qa54JktXU12fDamOl/4+3noEkqzoRxHZVlPP9FmcanJ8UxEliJJQo6dRrSnmKpR9U5htel3Ydva6rw==",
+      "path": "webdriver.chromedriver.win32/83.0.4103.39",
+      "hashPath": "webdriver.chromedriver.win32.83.0.4103.39.nupkg.sha512"
     }
   }
 }
